@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="l-container">
     <div>
       <Logo />
-      <div class="links">
+      <div class="l-links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -20,7 +20,7 @@
           GitHub
         </a>
       </div>
-      <h1 class="title">
+      <h1 class="c-title">
         welcome, Nuxt.js
       </h1>
     </div>
@@ -48,13 +48,18 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.l {
+  &-container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &-links {
+    padding-top: 15px;
+  }
 }
 
 .c {
@@ -97,6 +102,24 @@ export default {}
     animation-duration: 20s;
     animation-name: wavegrad;
   }
+  &-title {
+    font-family:
+      'Quicksand',
+      'Source Sans Pro',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 100px;
+    color: #31364ae8;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
 }
 
 @keyframes wavegrad {
@@ -123,37 +146,6 @@ export default {}
   to {
     left: -100%;
   }
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #31364ae8;
-  letter-spacing: 1px;
-  margin-top: 20px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 
 </style>
