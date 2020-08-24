@@ -123,18 +123,11 @@ export default {}
 }
 
 @keyframes wavegrad {
-  0% {
+  from {
     left: -100%;
-    top: 0%;
   }
-
-  50% {
-    top: 3%;
-  }
-
-  100% {
+  to {
     left: 0%;
-    top: 0%;
   }
 }
 
