@@ -1,0 +1,5 @@
+.c-title {
+  @include mq() {
+    font-size: 2rem;
+  }
+}

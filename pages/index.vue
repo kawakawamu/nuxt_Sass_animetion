@@ -21,7 +21,7 @@
         </a>
       </div>
       <h1 class="c-title">
-        welcome, Nuxt.js
+        Welcome, Nuxt.js
       </h1>
     </div>
     <div class="c-water">
@@ -115,7 +115,7 @@ export default {}
       sans-serif;
     display: block;
     font-weight: 300;
-    font-size: 100px;
+    font-size: 2rem;
     color: #31364ae8;
     letter-spacing: 1px;
     margin-top: 20px;
