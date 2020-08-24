@@ -142,7 +142,6 @@ export default {}
   from {
     left: 0%;
   }
-
   to {
     left: -100%;
   }
