@@ -1,20 +1,5 @@
-# wave_animation
+# nuxt_wave_animetion
 
-## Build Setup
+<img width="1229" alt="readme_top" src="https://github.com/kawakawamu/nuxt_Sass_animetion/assets/56011845/4081e135-f1ec-4175-bca8-4b1c4c20806f">
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<h3 align="center">https://kawakawamu.github.io/nuxt_Sass_animetion/</h3>
